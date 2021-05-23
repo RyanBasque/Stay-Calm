@@ -9,7 +9,12 @@
     font-family: Archivo;
 }
 body {
-    height: 100vh;
+    height: 100vh
+}
+.logo{
+    font-size: 30px; color: #B4B4F4;
+    font-weight: bold; 
+    text-align: center;
 }
 
 p {
