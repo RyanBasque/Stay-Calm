@@ -37,8 +37,6 @@ p {
     border-style: groove;
     font-style: inherit;
     text-decoration: none;
-
-
 }
 .container {
     display: flex;
@@ -60,3 +58,6 @@ svg {
     float: left;
 }
 
+.map {
+    width: 70%;
+}
