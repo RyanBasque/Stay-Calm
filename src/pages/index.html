@@ -25,8 +25,8 @@
                             calmo.</strong></p>
                 </span>
                 <div class="btn-container">
-                    <button>Relaxar</button>
-                    <button>Ajuda</button>
+                    <button onclick="redirect(0)">Relaxar</button>
+                    <button onclick="redirect(1)">Ajuda</button>
                 </div>
             </div>
             <div class="image-container">
@@ -64,5 +64,10 @@
             undrawn.setAttribute("src", "../assets/images/white_theme/undrawn.svg");
             theme.setAttribute("src", "../assets/icons/white_theme/change_theme.svg");
         }
+    }
+
+    function redirect(id) {
+        id === 0 ? window.location.href = "./emercency.html" : null;
+        id === 1 ? window.location.href = "./home.html" : null;
     }
 </script>
